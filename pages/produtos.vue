@@ -5,21 +5,21 @@
     </h1>
 <div class="columns">
   <div class="column is-4">
-    Filtros:
-    <h1> 
-    <b-field>
-            <b-checkbox></b-checkbox>
+    <h1 class='title is-5'>Filtros:</h1>
+    
+     <b-field>
+            <b-checkbox>Teclas</b-checkbox>
         </b-field>
     <b-field>
             <b-checkbox>Sopro</b-checkbox>
         </b-field>
     <b-field>
-            <b-checkbox>Eixo Único</b-checkbox>
+            <b-checkbox>Cordas</b-checkbox>
         </b-field>
     <b-field>
-            <b-checkbox>Bi-articulado</b-checkbox>
+            <b-checkbox>Percussão</b-checkbox>
         </b-field>
-    </h1>
+    
   </div>
   <div class="column is-8">
     <div class="columns">

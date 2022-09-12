@@ -19,7 +19,7 @@
 
 <div class="columns mt-5">
       <div class="column is-3">
-        <article class="notification is-info">
+        <article class="notification is-white">
           <b-image class="image" :src="require('@/assets/violao.png')"></b-image>
           <p class="title">titulo</p>
           <p class="subtitle">Subtítulo</p>
@@ -27,7 +27,7 @@
         </article>
       </div>
       <div class="column is-3">
-        <article class="notification is-danger">
+        <article class="notification is-white">
           <b-image
             :src="require('@/assets/violao.png')"
           <p class="title">Título</p>
@@ -36,14 +36,17 @@
         </article>
       </div> 
   <div class="column is-3">
-        <article class="notification is-info">
+        <article class="notification is-white">
+           <b-image
+            :src="require('@/assets/violao.png')"
           <p class="title">Título</p>
           <p class="subtitle">Subtítulo</p>
           <router-link :to="{ path: '/imagens' }">Exemplo de link</router-link>
         </article>
       </div>     
   <div class="column is-3">
-        <article class="notification is-danger">
+    
+        <article class="notification is-white">
           <p class="title">Título</p>
           <p class="subtitle">Subtítulo</p>
           <router-link :to="{ path: '/imagens' }">Exemplo de link</router-link>

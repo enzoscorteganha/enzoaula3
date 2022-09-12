@@ -1,7 +1,7 @@
-<template>
+   <template>
   <div class="container is-fluid">
 
-    <b-navbar shadow="true">
+    <b-navbar >
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
@@ -19,18 +19,20 @@
                 Produtos
             </b-navbar-item>
           
-            <b-navbar-item tag="router-link" :to="{ path: '/sobre' }">
-                Sobre
+          
+            <b-navbar-item tag="router-link" :to="{ path: '/carrinho' }">
+                Carrinho
             </b-navbar-item>
         </template>
+      
 
         <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
+                    <a class="button is-white">
                         <strong>Cadastre-se</strong>
                     </a>
-                    <a class="button is-light">
+                    <a class="button is-white">
                         Login
                     </a>
                 </div>
